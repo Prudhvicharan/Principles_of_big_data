@@ -1,0 +1,12 @@
+create database onlineretail1;
+use onlineretail1;
+CREATE TABLE table1 (
+    StockCode VARCHAR(50),
+    Quantity INT,
+    InvoiceDate DATE,
+    InvoiceTime TIME,
+    UnitPrice DECIMAL(10, 2),
+    CustomerID INT,
+    Country VARCHAR(50)
+);
+select * from table1;
